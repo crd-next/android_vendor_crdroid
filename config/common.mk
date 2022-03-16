@@ -213,10 +213,10 @@ PRODUCT_PACKAGE_OVERLAYS += \
     vendor/lineage/overlay/no-rro
 
 PRODUCT_VERSION_MAJOR = 12
-PRODUCT_VERSION_MINOR = 0
+PRODUCT_VERSION_MINOR = 1
 
 # Increase CR Version with each major release.
-CR_VERSION := 8.2
+CR_VERSION := 8.3
 
 ifeq ($(WITH_GMS),true)
 LINEAGE_VERSION := crDroidAndroid-$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR)-$(shell date +%Y%m%d)-$(LINEAGE_BUILD)-GMS-v$(CR_VERSION)
